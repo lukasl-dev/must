@@ -1,6 +1,6 @@
 package must
 
-func Boolean(b bool, err error) bool {
+func Bool(b bool, err error) bool {
 	if err != nil {
 		panic(err)
 	}
