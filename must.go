@@ -28,6 +28,13 @@ func Uint32(i uint32, err error) uint32 {
 	return i
 }
 
+func Uint64(i uint64, err error) uint64 {
+	if err != nil {
+		panic(err)
+	}
+	return i
+}
+
 func Int8(i int8, err error) int8 {
 	if err != nil {
 		panic(err)
